@@ -1,0 +1,5 @@
+vendor/
+extracted/
+dist/
+node_modules/
+*.crx

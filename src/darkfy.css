@@ -1,0 +1,351 @@
+html[data-line-darkfy="dark"] {
+  color-scheme: dark;
+  --ld-bg: #111418;
+  --ld-panel: #171b21;
+  --ld-panel-2: #1d222b;
+  --ld-panel-3: #242a33;
+  --ld-border: #303743;
+  --ld-border-soft: #272d36;
+  --ld-text: #e8eaed;
+  --ld-text-strong: #ffffff;
+  --ld-muted: #a5adba;
+  --ld-faint: #747e8c;
+  --ld-hover: #222832;
+  --ld-active: #2a3240;
+  --ld-bubble-in: #252b33;
+  --ld-bubble-out: #1f6b3a;
+  --ld-bubble-out-2: #238245;
+  --ld-accent: #06c755;
+  --ld-link: #7ab2ff;
+  --ld-danger: #ff6b74;
+  --action-popover-popover-wrap-box-shadow: #00000066;
+  --action-popover-popover-wrap-border-color: var(--ld-border);
+  --action-popover-popover-wrap-background-color: var(--ld-panel-2);
+  --action-popover-action-list-border-top-color: var(--ld-border-soft);
+  --action-popover-action-item-font-color: var(--ld-text);
+  --action-popover-action-item-font-color-disabled: #667080;
+  --action-popover-action-item-background-color-hover: var(--ld-hover);
+  --action-popover-action-item-icon-color: var(--ld-text);
+  --action-popover-description-border-top-color: var(--ld-border-soft);
+  --action-popover-description-icon-color: var(--ld-faint);
+  --action-popover-description-font-color: var(--ld-muted);
+  --tooltip-bg-color: #0b0d11;
+  --tooltip-border-color: var(--ld-border);
+  --tooltip-text-color: var(--ld-text);
+}
+
+html[data-line-darkfy="dark"],
+html[data-line-darkfy="dark"] body,
+html[data-line-darkfy="dark"] #root,
+html[data-line-darkfy="dark"] #modal-root,
+html[data-line-darkfy="dark"] .app {
+  background: var(--ld-bg) !important;
+  color: var(--ld-text) !important;
+}
+
+html[data-line-darkfy="dark"] a,
+html[data-line-darkfy="dark"] button,
+html[data-line-darkfy="dark"] input,
+html[data-line-darkfy="dark"] pre,
+html[data-line-darkfy="dark"] select,
+html[data-line-darkfy="dark"] textarea {
+  color: var(--ld-text) !important;
+}
+
+html[data-line-darkfy="dark"] ::selection {
+  background: #245b3d !important;
+  color: var(--ld-text-strong) !important;
+}
+
+html[data-line-darkfy="dark"] ::placeholder {
+  color: var(--ld-faint) !important;
+}
+
+html[data-line-darkfy="dark"] ::-webkit-scrollbar-corner {
+  background: transparent !important;
+}
+
+html[data-line-darkfy="dark"] :hover::-webkit-scrollbar-track,
+html[data-line-darkfy="dark"] [data-scrolling-timer-id]::-webkit-scrollbar-track {
+  background-color: #00000033 !important;
+}
+
+html[data-line-darkfy="dark"] :hover::-webkit-scrollbar-thumb,
+html[data-line-darkfy="dark"] [data-scrolling-timer-id]::-webkit-scrollbar-thumb {
+  background-color: #596273 !important;
+}
+
+html[data-line-darkfy="dark"] [class*="pageLayout-module__wrap"],
+html[data-line-darkfy="dark"] [class*="chatlist-module__chatlist_wrap"],
+html[data-line-darkfy="dark"] [class*="chatlist-module__chatlist"],
+html[data-line-darkfy="dark"] [class*="chatlist-module__chatlist_inner"],
+html[data-line-darkfy="dark"] [class*="friendlist-module__list_wrap"],
+html[data-line-darkfy="dark"] [class*="friendlist-module__list"],
+html[data-line-darkfy="dark"] [class*="friendlist-module__inner"],
+html[data-line-darkfy="dark"] [class*="chatroom-module__chatroom"],
+html[data-line-darkfy="dark"] [class*="chatroomContent-module__content_area"],
+html[data-line-darkfy="dark"] [class*="settingPopup-module__popup"],
+html[data-line-darkfy="dark"] [class*="settingPopup-module__menu"],
+html[data-line-darkfy="dark"] [class*="settingPopup-module__contents"],
+html[data-line-darkfy="dark"] [class*="selectFriendPopup-module__popup"],
+html[data-line-darkfy="dark"] [class*="stickerPopup-module__popup"],
+html[data-line-darkfy="dark"] [class*="modal-module__modal"],
+html[data-line-darkfy="dark"] [class*="folderSettingModal-module__modal"] {
+  background-color: var(--ld-panel) !important;
+}
+
+html[data-line-darkfy="dark"] [class*="gnb-module__gnb"] {
+  background-color: #131925 !important;
+}
+
+html[data-line-darkfy="dark"] [class*="chatlist-module__search_box"],
+html[data-line-darkfy="dark"] [class*="friendlist-module__action_box"],
+html[data-line-darkfy="dark"] [class*="friendlist-module__list_wrap"] > div[class*="input_box"],
+html[data-line-darkfy="dark"] [class*="categoryLayout-module__category_wrap"],
+html[data-line-darkfy="dark"] [class*="chatroomHeader-module__header"],
+html[data-line-darkfy="dark"] [class*="chatroomHeader-module__member_popup"],
+html[data-line-darkfy="dark"] [class*="chatroomEditor-module__editor_area"],
+html[data-line-darkfy="dark"] [class*="stickerPopup-module__package_item_area"],
+html[data-line-darkfy="dark"] [class*="stickerPopup-module__button_resize"],
+html[data-line-darkfy="dark"] [class*="selectFriendPopup-module__header"],
+html[data-line-darkfy="dark"] [class*="selectFriendPopup-module__selected_list_area"],
+html[data-line-darkfy="dark"] [class*="findFriendModal-module__search_area"],
+html[data-line-darkfy="dark"] [class*="sendFileModal-module__drag_box"] {
+  background-color: var(--ld-panel-2) !important;
+}
+
+html[data-line-darkfy="dark"] [class*="stickerPopup-module__package_area"],
+html[data-line-darkfy="dark"] [class*="folderTab-module__button_option"]::before {
+  background: var(--ld-panel-3) !important;
+}
+
+html[data-line-darkfy="dark"] [class*="chatroom-module__chatroom"],
+html[data-line-darkfy="dark"] [class*="chatroomEditor-module__editor_area"],
+html[data-line-darkfy="dark"] [class*="chatlist-module__tab"],
+html[data-line-darkfy="dark"] [class*="tablist-module__tab_list"],
+html[data-line-darkfy="dark"] [class*="settingPopup-module__menu"],
+html[data-line-darkfy="dark"] [class*="modal-module__modal"],
+html[data-line-darkfy="dark"] [class*="friendContent-module__manage_area"],
+html[data-line-darkfy="dark"] [class*="selectFriendPopup-module__popup"],
+html[data-line-darkfy="dark"] [class*="selectFriendPopup-module__selected_list_area"],
+html[data-line-darkfy="dark"] [class*="stickerPopup-module__package_item_area"],
+html[data-line-darkfy="dark"] [class*="stickerPopup-module__button_resize"]::before {
+  border-color: var(--ld-border) !important;
+}
+
+html[data-line-darkfy="dark"] [class*="searchInput-module__label"],
+html[data-line-darkfy="dark"] div[class*="input_box"] label,
+html[data-line-darkfy="dark"] [class*="loginForm-module__input_group"],
+html[data-line-darkfy="dark"] [class*="editInput-module__edit_box"],
+html[data-line-darkfy="dark"] [class*="select-module__select"],
+html[data-line-darkfy="dark"] select {
+  background-color: #202631 !important;
+  border-color: var(--ld-border) !important;
+}
+
+html[data-line-darkfy="dark"] [class*="chatroomEditor-module__textarea"] {
+  background-color: var(--ld-panel) !important;
+  caret-color: var(--ld-accent) !important;
+  color: var(--ld-text) !important;
+}
+
+html[data-line-darkfy="dark"] [class*="chatlistItem-module__title_box"],
+html[data-line-darkfy="dark"] [class*="friendlistItem-module__name_box"],
+html[data-line-darkfy="dark"] [class*="chatroomHeader-module__name"],
+html[data-line-darkfy="dark"] [class*="loginQr-module__title"],
+html[data-line-darkfy="dark"] [class*="pinCodeModal-module__title"],
+html[data-line-darkfy="dark"] [class*="resultFriend-module__name"],
+html[data-line-darkfy="dark"] [class*="sendFileModal-module__title"],
+html[data-line-darkfy="dark"] [class*="shortcutGroup-module__title"],
+html[data-line-darkfy="dark"] [class*="linkbox-module__title"],
+html[data-line-darkfy="dark"] [class*="contactMessageContent-module__name"],
+html[data-line-darkfy="dark"] [class*="fileMessageContent-module__file_name"],
+html[data-line-darkfy="dark"] [class*="tablistItem-module__button_tab"][aria-selected="true"],
+html[data-line-darkfy="dark"] [class*="folderTab-module__tab_item"][aria-selected="true"],
+html[data-line-darkfy="dark"] [class*="stickerPopup-module__button_tab"][aria-pressed="true"] {
+  color: var(--ld-text-strong) !important;
+}
+
+html[data-line-darkfy="dark"] [class*="chatlistItem-module__description"] [class*="text"],
+html[data-line-darkfy="dark"] [class*="chatlistItem-module__date"],
+html[data-line-darkfy="dark"] [class*="friendlistItem-module__description"],
+html[data-line-darkfy="dark"] [class*="chatroom-module__description"],
+html[data-line-darkfy="dark"] [class*="chatroomHeader-module__member_count"],
+html[data-line-darkfy="dark"] [class*="categoryLayout-module__button_category"],
+html[data-line-darkfy="dark"] [class*="tablistItem-module__button_tab"],
+html[data-line-darkfy="dark"] [class*="folderTab-module__tab_item"],
+html[data-line-darkfy="dark"] [class*="stickerPopup-module__button_tab"],
+html[data-line-darkfy="dark"] [class*="settingPopup-module__button_menu"],
+html[data-line-darkfy="dark"] [class*="resultFriend-module__state_message"],
+html[data-line-darkfy="dark"] [class*="shortcutGroup-module__description"],
+html[data-line-darkfy="dark"] [class*="shortcutItem-module__property"],
+html[data-line-darkfy="dark"] [class*="shortcutItem-module__value"],
+html[data-line-darkfy="dark"] [class*="metaInfo-module__meta"],
+html[data-line-darkfy="dark"] [class*="linkbox-module__description"] {
+  color: var(--ld-muted) !important;
+}
+
+html[data-line-darkfy="dark"] [class*="gnb-module__button_action"] {
+  color: #9aa5b5 !important;
+}
+
+html[data-line-darkfy="dark"] [class*="gnb-module__button_action"][aria-current="true"],
+html[data-line-darkfy="dark"] [class*="gnb-module__button_action"]:hover {
+  color: var(--ld-text-strong) !important;
+}
+
+html[data-line-darkfy="dark"] [class*="search_text"],
+html[data-line-darkfy="dark"] [class*="aboutLineContent-module__version"],
+html[data-line-darkfy="dark"] [class*="aboutLineContent-module__icon"] {
+  color: var(--ld-accent) !important;
+}
+
+html[data-line-darkfy="dark"] [class*="textMessageContent-module__text"] a,
+html[data-line-darkfy="dark"] [class*="textMessageContent-module__text"] .mention,
+html[data-line-darkfy="dark"] [class*="linkbox-module__info"]::before {
+  color: var(--ld-link) !important;
+  border-color: var(--ld-link) !important;
+}
+
+html[data-line-darkfy="dark"] [class*="chatlistItem-module__chatlist_item"]:not([aria-selected="true"]) button[role="link"]:focus,
+html[data-line-darkfy="dark"] [class*="chatlistItem-module__chatlist_item"][aria-current="true"] button[role="link"],
+html[data-line-darkfy="dark"] [class*="friendlistItem-module__item"]:not([aria-selected="true"]) button[role="link"]:focus,
+html[data-line-darkfy="dark"] [class*="friendlistItem-module__item"][aria-current="true"] button[role="link"],
+html[data-line-darkfy="dark"] [class*="settingPopup-module__button_menu"][aria-current="true"] {
+  background-color: var(--ld-active) !important;
+}
+
+html[data-line-darkfy="dark"] [class*="chatlistItem-module__chatlist_item"]:not([aria-current="true"]):hover button[role="link"],
+html[data-line-darkfy="dark"] [class*="chatlistItem-module__chatlist_item"]:not([aria-current="true"])[aria-selected="true"] button[role="link"],
+html[data-line-darkfy="dark"] [class*="friendlistItem-module__item"]:not([aria-current="true"]):hover button[role="link"],
+html[data-line-darkfy="dark"] [class*="friendlistItem-module__item"]:not([aria-current="true"])[aria-selected="true"] button[role="link"],
+html[data-line-darkfy="dark"] [class*="actionPopoverListItem-module__action_item"]:hover {
+  background-color: var(--ld-hover) !important;
+}
+
+html[data-line-darkfy="dark"] [class*="friendlistItem-module__item"][data-state="new"],
+html[data-line-darkfy="dark"] [class*="friendlistItem-module__item"][data-state="new"]:hover {
+  background-color: #183423 !important;
+}
+
+html[data-line-darkfy="dark"] [class*="textMessageContent-module__content_wrap"],
+html[data-line-darkfy="dark"] [class*="fileMessageContent-module__content_wrap"],
+html[data-line-darkfy="dark"] [class*="contactMessageContent-module__content_wrap"],
+html[data-line-darkfy="dark"] [class*="audioMessageContent-module__content_wrap"],
+html[data-line-darkfy="dark"] [class*="replyMessageContent-module__content_wrap"]:not([data-content-type="sticker"]),
+html[data-line-darkfy="dark"] [data-content-type="sticker"] [class*="replyMessageContent-module__button_move"] {
+  background-color: var(--ld-bubble-in) !important;
+  color: var(--ld-text) !important;
+}
+
+html[data-line-darkfy="dark"] [class*="message"][data-direction="reverse"] [class*="textMessageContent-module__content_wrap"],
+html[data-line-darkfy="dark"] [class*="message"][data-direction="reverse"] [class*="fileMessageContent-module__content_wrap"],
+html[data-line-darkfy="dark"] [class*="message"][data-direction="reverse"] [class*="contactMessageContent-module__content_wrap"],
+html[data-line-darkfy="dark"] [class*="message"][data-direction="reverse"] [class*="audioMessageContent-module__content_wrap"],
+html[data-line-darkfy="dark"] [class*="message"][data-direction="reverse"] [class*="replyMessageContent-module__content_wrap"]:not([data-content-type="sticker"]),
+html[data-line-darkfy="dark"] [class*="message"][data-direction="reverse"] [data-content-type="sticker"] [class*="replyMessageContent-module__button_move"] {
+  background-color: var(--ld-bubble-out) !important;
+}
+
+html[data-line-darkfy="dark"] [class*="message"][data-direction="reverse"] [class*="audioMessageContent-module__progress"]::-webkit-progress-value {
+  background-color: var(--ld-bubble-out-2) !important;
+}
+
+html[data-line-darkfy="dark"] [class*="message"][data-direction="reverse"] [class*="fileMessageContent-module__button_download"] {
+  background-color: #1f6b3ae6 !important;
+}
+
+html[data-line-darkfy="dark"] [class*="textMessageContent-module__text"],
+html[data-line-darkfy="dark"] [class*="fileMessageContent-module__file_name"],
+html[data-line-darkfy="dark"] [class*="contactMessageContent-module__name"],
+html[data-line-darkfy="dark"] [class*="replyMessageContent-module__message"] {
+  color: var(--ld-text) !important;
+}
+
+html[data-line-darkfy="dark"] [class*="systemMessage-module__text"],
+html[data-line-darkfy="dark"] [class*="messageDate-module__date"],
+html[data-line-darkfy="dark"] [class*="chatroomContent-module__content_area"] .message_list::after {
+  background-color: #202631cc !important;
+  border-color: var(--ld-border-soft) !important;
+  color: var(--ld-muted) !important;
+}
+
+html[data-line-darkfy="dark"] [class*="imageMessageContent-module__content_wrap"],
+html[data-line-darkfy="dark"] [class*="videoMessageContent-module__content_wrap"],
+html[data-line-darkfy="dark"] [class*="imageMessageContent-module__thumbnail"] img:not(.is_loading),
+html[data-line-darkfy="dark"] [class*="videoMessageContent-module__thumbnail"] img:not(.is_loading),
+html[data-line-darkfy="dark"] [class*="loginQr-module__thumbnail"] {
+  background-color: var(--ld-panel-3) !important;
+  border-color: var(--ld-border) !important;
+}
+
+html[data-line-darkfy="dark"] [class*="reactionPopover-module__button_popover"],
+html[data-line-darkfy="dark"] [class*="chatroomHeader-module__button_alarm"],
+html[data-line-darkfy="dark"] [class*="chatroomHeader-module__button_popup"],
+html[data-line-darkfy="dark"] [class*="chatroomHeader-module__button_more"],
+html[data-line-darkfy="dark"] [class*="folderTab-module__icon_option"],
+html[data-line-darkfy="dark"] [class*="metaInfo-module__meta"] .type_icon {
+  color: var(--ld-muted) !important;
+}
+
+html[data-line-darkfy="dark"] [class*="metaInfo-module__meta"] .type_icon {
+  background-color: var(--ld-panel-2) !important;
+  border-color: var(--ld-border) !important;
+}
+
+html[data-line-darkfy="dark"] [class*="button-module__button"][data-shape="contained"] {
+  background-color: #222936 !important;
+  border-color: var(--ld-border) !important;
+  color: var(--ld-text) !important;
+}
+
+html[data-line-darkfy="dark"] [class*="button-module__button"][data-shape="contained"]:hover {
+  background-color: #2a3240 !important;
+}
+
+html[data-line-darkfy="dark"] [class*="button-module__button"][data-shape="contained"][data-color="primary"] {
+  background-color: var(--ld-accent) !important;
+  border-color: transparent !important;
+  color: #ffffff !important;
+}
+
+html[data-line-darkfy="dark"] [class*="button-module__button"][data-shape="contained"]:disabled,
+html[data-line-darkfy="dark"] [disabled] {
+  opacity: 0.55 !important;
+}
+
+html[data-line-darkfy="dark"] [class*="checkbox-module__icon_checkbox"]::before,
+html[data-line-darkfy="dark"] [class*="radio-module__icon_radio"]::before {
+  background-color: var(--ld-panel-3) !important;
+  border-color: var(--ld-border) !important;
+}
+
+html[data-line-darkfy="dark"] [class*="checkbox-module__input_checkbox"]:checked + [class*="checkbox-module__icon_checkbox"]::before,
+html[data-line-darkfy="dark"] [class*="radio-module__input_radio"]:checked + [class*="radio-module__icon_radio"]::before {
+  background-color: var(--ld-accent) !important;
+  border-color: var(--ld-accent) !important;
+}
+
+html[data-line-darkfy="dark"] [aria-busy="true"] p,
+html[data-line-darkfy="dark"] [aria-busy="true"] span {
+  background: #2a303a !important;
+  color: transparent !important;
+}
+
+html[data-line-darkfy="dark"] .is_loading {
+  filter: brightness(0.9);
+}
+
+html[data-line-darkfy="dark"] [class*="alertModal-module__description"],
+html[data-line-darkfy="dark"] [class*="description-module__description"],
+html[data-line-darkfy="dark"] [class*="findPasswordModal-module__description"],
+html[data-line-darkfy="dark"] [class*="loginQr-module__description"],
+html[data-line-darkfy="dark"] [class*="pinCodeModal-module__description"] {
+  color: var(--ld-muted) !important;
+}
+
+html[data-line-darkfy="dark"] [data-state="error"],
+html[data-line-darkfy="dark"] [class*="error"],
+html[data-line-darkfy="dark"] [class*="warning"] {
+  color: var(--ld-danger) !important;
+}
